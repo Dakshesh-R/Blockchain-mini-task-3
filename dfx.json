@@ -1,0 +1,25 @@
+{
+  "dfx": "0.20.1",
+  "package": {
+    "name": "crud_backend",
+    "version": "0.1.0"
+  },
+  "canisters": {
+    "rust": {
+      "type": "rust",
+      "main": "src/main.rs",
+      "candid": "src/main.did"
+    }
+  },
+  "networks": {
+    "local": {
+      "type": "ephemeral",
+      "bind": "127.0.0.1:8000"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": ""
+    }
+  }
+}
