@@ -1,6 +1,6 @@
 # Blockchain-mini-task-3
 # Student Report Card – Rust Console App
-This Rust-based console application takes student details from the user (name, total marks, and number of subjects), calculates the average, assigns a grade, and generates a clean PDF report card.
+This Rust-based console application takes student details from the user (name, type of CRUD operation ,individual marks), calculates the average, assigns a grade, and generates a clean PDF report card.
 
 ## Features
 - Accepts student input via console
@@ -11,11 +11,6 @@ This Rust-based console application takes student details from the user (name, t
   - C: 60–74
   - D: Below 60
 - Generates a neat PDF report card using printpdf
-
-# Student Report Card System
-
-This is a simple console application written in Rust for managing student report cards.  
-It is designed for beginners and demonstrates key Rust concepts in a clear, minimal way.
 
 ## Features
 - Add a new student and their marks for 5 subjects
